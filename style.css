@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-color: black;
+  margin: 2vw;
+  padding: 2vw;
+}
+.c1 {
+  background: rgb(50 50 50 / 21%);
+  border-radius: 6vw;
+  padding: 2vw;
+  margin: 0vw 12vw 1vw 8vw;
+  background: rgb(50 50 50 / 21%);
+  border-radius: 6vw;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -10px 5px 12px rgb(64 64 64 / 49%);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+.text-box {
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -6px -1px 18px rgb(111 109 109);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  background: #505050fc;
+  z-index: 2;
+
+  border: 3px solid black;
+  text-align: center;
+  position: absolute;
+  margin-top: 13vw;
+  margin-left: 2vw;
+  width: 40%;
+}
+.text-box h3 {
+  font-size: 1vw;
+}
+.text-box h1 {
+  font-size: 3.5vw;
+}
+.text-box a {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 2.56vw;
+  padding: 1vw 1vw 3vw 2vw;
+  margin: 1vw;
+  color: white;
+}
+.image {
+}
+.image img {
+  border: 5px solid #c9c9c9;
+  height: 41vw;
+  position: relative;
+  margin-top: 5vw;
+  z-index: 1;
+  margin-left: 7vw;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  color: aliceblue;
+  justify-items: center;
+  margin-top: 2vw;
+}
+li {
+  list-style: none;
+  margin: 2vw 3vw;
+}
+.title {
+  font-family: "Purple Purse", cursive;
+  font-size: 8vw;
+  text-shadow: -12px -3px 7px #555555;
+  opacity: 0.6;
+  color: #80808082;
+}
+.stamp {
+  margin-left: -8vw;
+  margin-top: -3vw;
+}
+.stamp p {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 50%;
+  float: left;
+  font-size: 1vw;
+  color: #999999;
+}
+.c2{
+  background: rgb(50 50 50 / 21%);
+  border-radius: 6vw;
+  padding: 2vw;
+  /* margin: 0vw 12vw 1vw 8vw; */
+  background: rgb(50 50 50 / 21%);
+  border-radius: 6vw;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -10px 5px 12px rgb(64 64 64 / 49%);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  
+ 
+}
+.title2 {
+  font-family: "Purple Purse", cursive;
+  font-size: 4vw;
+  text-shadow: -12px -3px 7px #555555;
+  opacity: 0.6;
+  color: #80808082;
+  float: right;
+  margin-top: 2vw;
+}
+.text-box2 {
+  color: white;
+  background: #4845458a;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -6px -1px 18px rgb(111 109 109);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  background: #505050fc;
+  z-index: 2;
+  border: 3px solid black;
+  text-align: center;
+  position: relative;
+  margin-top: 9vw;
+  margin-left: 22vw;
+  width: 50%;
+   
+}
+.stamp-E {
+  margin-left: -4vw;
+  margin-top: -1vw;
+}
+.stamp-E p {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 50%;
+  float: left;
+  font-size: 1vw;
+  color: #999999;
+}
+.text-box2 h3 {
+  padding: 3vw;
+  margin-bottom: -2vw;
+}
+.text-box2 a {
+  font-size: 2.4vw;
+  margin-bottom: 2vw;
+  padding: 0vw;
+}
+
+.text-box3 {
+  color: white;
+  background: #4845458a;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -6px -1px 18px rgb(111 109 109);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  padding: 2vw;
+  background: #505050fc;
+  z-index: 2;
+  border: 3px solid black;
+  text-align: center;
+  position: relative;
+  margin-top: 0vw;
+  color: white;
+  background: #4845458a;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -6px -1px 18px rgb(111 109 109);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  padding: 2vw;
+  background: #505050fc;
+  margin-left: 0vw;
+  margin-left: 55vw;
+  width: 35%;
+   
+}
+.stamp-E {
+  margin-left: -4vw;
+  margin-top: -1vw;
+}
+.stamp-E3 {
+  margin-left: -4vw;
+  margin-top: -3vw;
+  float: right;
+}
+.stamp-E3 p {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 50%;
+  float: left;
+  font-size: 1vw;
+  color: #999999;
+}
+.text-box3 h3 {
+ 
+}
+.text-box3 a {
+  font-size: 2.5vw;
+  margin-bottom: 3vw;
+  padding: 0vw;
+}
+
+.text-box4 {
+  color: white;
+  background: #4845458a;
+  box-shadow: 0 1px 15px rgb(1 1 1 / 97%);
+  -webkit-box-shadow: -6px -1px 18px rgb(111 109 109);
+  -moz-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.2);
+  padding: 2vw;
+  background: #505050fc;
+  z-index: 2;
+  border: 3px solid black;
+  text-align: center;
+  position: relative;
+  margin-top: -13vw;
+  margin-left: 2vw;
+  width: 35%;
+   
+}
+.stamp-E {
+  margin-left: -4vw;
+  margin-top: -1vw;
+}
+.stamp-E4 {
+  margin-left: -4vw;
+  margin-top: -3vw;
+  float: left;
+}
+.stamp-E4 p {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 50%;
+  float: left;
+  font-size: 1vw;
+  color: #999999;
+}
+.text-box4 h3 {
+ 
+}
+.text-box4 a {
+  font-size: 2.5vw;
+  margin-bottom: 3vw;
+  padding: 0vw;
+}
+.bg-grey {
+  background-color: #f6f5f5;
+}
+
+.pad-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.fl-100 {
+  float: left;
+  width: 100%;
+}
+.delightimage img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.del-pull-l-200 {
+  left: -200px;
+}
+
+.del-vt-align {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fl-100 {
+  float: left;
+  /* width: 100%; */
+}
+
+.delight-txt-card {
+  box-shadow: 0 1px 29px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 1px 29px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 1px 29px rgba(0,0,0,.2);
+  padding: 50px 90px;
+  background: #fff;
+  height: 335px;
+}
+p:first-child {
+  margin-top: 0;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.delight-card-title {
+  text-transform: uppercase;
+}
+p {
+  font-size: 27px;
+  line-height: 30px;
+  color: #242424;
+}
+.delighlistarea {
+  overflow: hidden;
+  width: 300px;
+  max-height: 120px;
+}
