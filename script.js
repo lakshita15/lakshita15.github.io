@@ -10,10 +10,26 @@ $(document).ready(function(){
         // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
+
+            
         }else{
             $('.scroll-up-btn').removeClass("show");
         }
+        //rest functions
+        // let div =  document.querySelector(".about-content");
+        //  let rect = div.getBoundingClientRect();
+        //   h = rect.height;
+        //  console.log(h)
+        //  if(h=700){
+        //      let about = document.querySelector(".about-content");
+        //      about.style.animation = fadeInLeft ;
+        //  }
+        if(this.scrollY>=200){
+            $('.column.left').addClass("fadeleft");
+            $(".column.right.about-img").addClass("animate__fadeInRight")
+        }
     });
+
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
