@@ -216,9 +216,7 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
-    content: "Know more about me";
-}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -445,10 +443,7 @@ section .title::after{
     background: #673ab7!important;
 }
 
-/* contact section styling */
-.contact .title::after{
-    content: "get in touch with me";
-}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
