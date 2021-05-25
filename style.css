@@ -796,3 +796,19 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
     animation: fadeInRight;
     animation-duration: 2s; 
   }
+  .animate__rollIn{
+    animation: rollIn;
+    animation-duration: 2s; 
+  }
+  .animate__flipInY{
+    animation: flipInY;
+    animation-duration: 3s; 
+  }
+  .animate__fadeInRight{
+    animation: fadeInRight;
+    animation-duration: 3s; 
+  }
+  .animate__fadeInLeft{
+    animation: fadeInLeft;
+    animation-duration: 3s; 
+  }

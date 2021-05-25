@@ -16,7 +16,7 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
         //rest functions
-        // let div =  document.querySelector(".about-content");
+        // let div =  document.querySelector(".achieve");
         //  let rect = div.getBoundingClientRect();
         //   h = rect.height;
         //  console.log(h)
@@ -28,6 +28,26 @@ $(document).ready(function(){
             $('.column.left').addClass("fadeleft");
             $(".column.right.about-img").addClass("animate__fadeInRight")
         }
+        if(this.scrollY>=1000){
+            $('.box').addClass("animate__rollIn")
+        }
+        
+        if(this.scrollY>=1600){
+            $('.tilesWrap').addClass("animate__flipInY")
+        }
+        if(this.scrollY>=2800){
+            $('.achieve').addClass("animate__flipInY")
+        }
+        if(this.scrollY>=3200){
+            $('.skills-content').addClass("animate__fadeInRight")
+        }
+        if(this.scrollY>=3800){
+            $('.card').addClass("animate__fadeInLeft")
+           
+        }
+        // if(this.scrollY>=3200){
+        //     $('.skills-content').addClass("animate__fadeInRight")
+        // }
     });
 
 
