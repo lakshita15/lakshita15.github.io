@@ -7,9 +7,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+  overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
-    cursor: url(https://github.com/PulkitSinghDev/PulkitSinghDev.github.io/blob/main/hi-from-pulkit-removebg-preview.cur), auto;
+   
 }
 
 /* custom scroll bar */
@@ -51,7 +54,7 @@ section{
 section .title{
   position: relative;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 40px;
   padding-bottom: 20px;
@@ -783,4 +786,9 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
   padding-bottom: 20px;
   font-family: 'Ubuntu', sans-serif;
   color: #ffeb3b;
+}
+.button{
+  display: flex;
+    place-content: center;
+    justify-content: center;
 }
