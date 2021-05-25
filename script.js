@@ -24,24 +24,24 @@ $(document).ready(function(){
         //      let about = document.querySelector(".about-content");
         //      about.style.animation = fadeInLeft ;
         //  }
-        if(this.scrollY>=200){
+        if(this.scrollY>=180){
             $('.column.left').addClass("fadeleft");
             $(".column.right.about-img").addClass("animate__fadeInRight")
         }
-        if(this.scrollY>=1000){
+        if(this.scrollY>=800){
             $('.box').addClass("animate__rollIn")
         }
         
-        if(this.scrollY>=1600){
+        if(this.scrollY>=1400){
             $('.tilesWrap').addClass("animate__flipInY")
         }
-        if(this.scrollY>=2800){
+        if(this.scrollY>=2700){
             $('.achieve').addClass("animate__flipInY")
         }
-        if(this.scrollY>=3200){
+        if(this.scrollY>=3000){
             $('.skills-content').addClass("animate__fadeInRight")
         }
-        if(this.scrollY>=3800){
+        if(this.scrollY>=3600){
             $('.card').addClass("animate__fadeInLeft")
            
         }
