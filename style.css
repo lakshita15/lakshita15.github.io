@@ -665,6 +665,29 @@ i{
 }
 
 @media (max-width: 500px) {
+    body{
+        transform: none;
+    }
+    section .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: #111;
+       }
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 20px;   
+        color: #673ab7;
+        padding: 0 5px;
+        background: #fff;
+       
+    }
+    
     .home .home-content .text-2{
         font-size: 50px;
     }
